@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Hey again 👋! Welcome to the source code 🤓, feel free to take a look, I commented the code a bit 🙂 -->
+    <!-- The boring part! -->
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Jordi Anderl</title>
+    <meta
+      content="Development portfolio of Jordi Anderl"
+      name="description"
+      property="og:description"
+    />
+
+    <!-- Link to the relevant stylesheet -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!--[if lte IE 8]>
+      <link href="dist/css/blockIE.css" rel="stylesheet" />
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Load JQuery, as our little script depends on it -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Load our font from Google -->
+    <!-- The JS code block has been moved into the index.js file.  -->
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <!-- This calls the little script written above. -->
+    <div class="preloader"></div>
+    <main>
+      <!-- The Intro section begins -->
+      <section class="intro">
+        <div class="intro-text">
+          <!-- Seperates the text section from the arrow. -->
+          <div class="Hi">
+            <h1>
+              Hi there! 👋 &mdash; My name is <span>Jordi</span> 👨🏼‍💻, I'm an
+              <span>Engineering Manager</span> located in Berlin 🇩🇪.
+            </h1>
+            <p>
+              Most of my work life I have spent as a Full Stack Engineer. Please
+              stay a while and take a look at my résumé if you feel like it 🙂.
+            </p>
+            <p>
+              <small
+                ><i
+                  >Full and more complete version may be found at my LinkedIn</i
+                ></small
+              >
+            </p>
+            <p>
+              <span>Stuff I like:</span> Tinkering, solving problems, Typescript
+              and having fun at work.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Intro section ends -->
+
+      <!-- The portfolio section begins -->
+
+      <section class="projects">
+        <div class="projects-collage">
+          <!-- Project One -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="img/klarna2.jpg" />
+              <figcaption class="project-text">
+                <h2>Klarna</h2>
+                <p>Engineering Manager & Senior Full Stack Engineer</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+            HINTS: The P tag next
+            First Anchor tag is for the project's github REPO
+            Second Anchor is for the project's live preview  -->
+
+                <p class="hidden popUpdesc">
+                  My current Job. I started at first as a
+                  <span>Full Stack Engineer</span>, developing solutions,
+                  shaping the project and facilitating with stakeholders. Later
+                  on I transitioned into a <span>Engineering Manager</span> role
+                  where I help and lead a team of engineers.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span id="githubRepo" href="https://github.com/klarna"></span>
+                <span id="livePreview" href="https://www.klarna.com"></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project One Ends -->
+
+          <!-- Project Two -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="img/civigner.png" />
+              <figcaption class="project-text">
+                <h2>Civigner</h2>
+                <p>Senior Full Stack Engineer</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <p class="hidden popUpdesc">
+                  Work at a spanish 🇪🇸 startup where I helped develop a web
+                  based CAD environment, feature full with 2D and 3D, cloud
+                  sharing, colaboration, etc... Focus on UX, calculus, 3D
+                  modeling. Typescript from both front and backend.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span id="githubRepo" href="https://www.civigner.com"></span>
+                <span id="livePreview" href="https://www.civigner.com"></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project Two Ends -->
+
+          <!-- Project Three -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="img/duonet.png" />
+              <figcaption class="project-text">
+                <h2>Duo*net</h2>
+                <p>Full Stack Engineer & Consulting</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <p class="hidden popUpdesc">
+                  Several custom projects, consulting for a law buffet and
+                  colaborations with marketing.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span id="githubRepo" href="https://duonet.es"></span>
+                <span id="livePreview" href="https://duonet.es"></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project Three Ends -->
+
+          <!-- Project Four -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="img/cypetherm.png" />
+              <figcaption class="project-text">
+                <h2>Cype</h2>
+                <p>Junior Engineer</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <p class="hidden popUpdesc">
+                  Architecture and engineering software. Delivery of the full
+                  lifecycle of a program. Main focus of data structures,
+                  calculus and efficiency.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span
+                  id="githubRepo"
+                  href="http://cypetherm-loads.cype.es/"
+                ></span>
+                <span
+                  id="livePreview"
+                  href="http://cypetherm-loads.cype.es/"
+                ></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project Four Ends -->
+        </div>
+      </section>
+      <!-- Portfolio section ends -->
+
+      <!-- Contact button section begins -->
+      <section class="content contact">
+        <a
+          class="button-slide"
+          data-hover="jordianderl+web@gmail.com"
+          href="mailto:jordianderl+web@gmail.com"
+        >
+          <span>Talk To Me (🇬🇧 🇩🇪 or 🇪🇸)</span>
+        </a>
+      </section>
+      <!-- Contact button section ends-->
+
+      <!-- Footer section begins-->
+      <footer>
+        <div class="wrapper">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/jordianderl" target="_blank"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com/_anderl" target="_blank">Twitter</a>
+            </li>
+            <li>
+              <a href="https://github.com/jordianderl" target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!-- Footer section ends -->
+    </main>
+    <!--This section would ONLY appear when an individual project 'box' is clicked, It gives more detail about the project. it contains-- IMAGE OF THE PROJECT, THE PROJECT'S NAME, THE PROJECT FULL DESCRIPTION, GITHUB LINK && PREVIEW LINK -->
+    <div class="popUp">
+      <div class="popUpImg"></div>
+      <div id="popUpText">
+        <h1>Project's Name</h1>
+        <p class="projectDesc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non
+          ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit.
+        </p>
+        <div>
+          <a href="" id="githubLink"></a>
+          <a href="" id="previewLink"></a>
+        </div>
+      </div>
+      <span id="cancelBtn">X</span>
+    </div>
+  </body>
+</html>
